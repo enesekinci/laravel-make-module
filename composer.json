@@ -1,0 +1,21 @@
+{
+    "name": "enesekinci/laravel-make-module",
+    "description": "Creating module files with a single command",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ENES EKİNCİ",
+            "email": "enes.eknc.96@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "laravel/laravel": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EnesEkinci\\LaravelMakeModule\\": "src/"
+        }
+    }
+}
